@@ -13,7 +13,7 @@ DOWNLOAD dataset HERE : https://data.gov.sg/datasets/d_ccaae92652c42740829ab1701
 - This dataset from [data.gov.sg](https://data.gov.sg) provides:
 
 - **Singapore's Commodity re-exports**, categorized by **commodity divisions** (e.g., Beverages, Tobacco, etc.)
-- Reported on a **monthly basis**, from **January 1976 to March 2025**
+- Reported on a **monthly basis** according to the dataset, for example, the current dataset is from **January 1976 to March 2025**
 - Does **not include destination countries** — data reflects total overseas re-exports
 
 In international trade statistics and classification systems (like HS, SITC, or CPC), "N.E.S." or "nes" or "Nes" stands for:
