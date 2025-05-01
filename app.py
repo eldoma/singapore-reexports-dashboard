@@ -9,6 +9,7 @@ st.title("🇸🇬 Singapore Re-Exports to Overseas")
 st.markdown("""
 ### 📊 About This Dataset
 
+DOWNLOAD dataset HERE : https://data.gov.sg/datasets/d_ccaae92652c42740829ab17013a698c2/view
 This dataset from [data.gov.sg](https://data.gov.sg) provides:
 
 - **Singapore's re-exports**, categorized by **commodity divisions** (e.g., Beverages, Tobacco, etc.)
@@ -50,7 +51,7 @@ Many U.S. pharmaceutical products are made in Singapore for companies like: Pfiz
             
 """)
 
-st.caption("📌 Data Source: [data.gov.sg](https://data.gov.sg) — Monthly Commodity Division (1976–2025)")
+st.caption("📌 Data Source: [data.gov.sg](https://data.gov.sg) — Monthly Commodity Division (1976–2025), DOWNLOAD dataset HERE : https://data.gov.sg/datasets/d_ccaae92652c42740829ab17013a698c2/view")
 
 # --- Upload CSV ---
 uploaded_file = st.file_uploader("📁 Upload the 'ReExportsByCommodityDivisionMonthly.csv' file", type=["csv"])
