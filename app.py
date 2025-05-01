@@ -4,18 +4,19 @@ import matplotlib.pyplot as plt
 
 # --- Streamlit Page Setup ---
 st.set_page_config(layout="wide")
-st.title("🇸🇬 Singapore Re-Exports to Overseas")
+st.title("🇸🇬 Singapore Commodity Re-Exports to Overseas")
 
 st.markdown("""
 ### 📊 About This Dataset
 
 DOWNLOAD dataset HERE : https://data.gov.sg/datasets/d_ccaae92652c42740829ab17013a698c2/view
-This dataset from [data.gov.sg](https://data.gov.sg) provides:
+- This dataset from [data.gov.sg](https://data.gov.sg) provides:
 
-- **Singapore's re-exports**, categorized by **commodity divisions** (e.g., Beverages, Tobacco, etc.)
+- **Singapore's Commodity re-exports**, categorized by **commodity divisions** (e.g., Beverages, Tobacco, etc.)
 - Reported on a **monthly basis**, from **January 1976 to March 2025**
 - Does **not include destination countries** — data reflects total overseas re-exports
-- In international trade statistics and classification systems (like HS, SITC, or CPC), "N.E.S." or "nes" stands for:
+
+In international trade statistics and classification systems (like HS, SITC, or CPC), "N.E.S." or "nes" or "Nes" stands for:
 
 👉 "Not Elsewhere Specified"
 🔍 What it Means:
@@ -51,7 +52,7 @@ Many U.S. pharmaceutical products are made in Singapore for companies like: Pfiz
             
 """)
 
-st.caption("📌 Data Source: [data.gov.sg](https://data.gov.sg) — Monthly Commodity Division (1976–2025), DOWNLOAD dataset HERE : https://data.gov.sg/datasets/d_ccaae92652c42740829ab17013a698c2/view")
+st.caption("📌 Data Source: [data.gov.sg](https://data.gov.sg) — Monthly Commodity Division (1976–2025), again, if you haven't, DOWNLOAD dataset HERE : https://data.gov.sg/datasets/d_ccaae92652c42740829ab17013a698c2/view")
 
 # --- Upload CSV ---
 uploaded_file = st.file_uploader("📁 Upload the 'ReExportsByCommodityDivisionMonthly.csv' file", type=["csv"])
